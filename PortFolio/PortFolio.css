@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  
+  .name {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .contact-info a {
+    /* display: block; */
+    width: 10em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5em;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .skills,
+  .education,
+  .academic-projects,
+  .position-of-responsibility,
+  .hobbies {
+    border-top: 1px solid #ccc;
+    padding-top: 1em;
+    margin-top: 1em;
+  }
+  
+  .skills,
+  .education,
+  .academic-projects,
+  .position-of-responsibility,
+  .hobbies h2 {
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    margin-bottom: 0.5em;
+    margin-top: 0;
+  }
+  
+  .skills li,
+  .education li,
+  .academic-projects li,
+  .position-of-responsibility li,
+  .hobbies li {
+    margin-bottom: 0.5em;
+  }
+  
+  .skills li:before,
+  .education li:before,
+  .academic-projects li:before,
+  .position-of-responsibility li:before,
+  .hobbies li:before {
+    margin-right: 0.5em;
+  }
+
+  #thankYouButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #thankYouButton:hover {
+    background-color: #0056b3;
+  }
